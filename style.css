@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+.first-section{
+    display: flex;
+    padding: 20px 100px 0px;
+}
+
+h1{
+    font-size: 70px;
+    padding-left: 5px;
+    border-left: tomato;
+}
+h2{
+    font-size: 40px;
+}
+.orange-color{
+    color: orange;
+}
+.left-content{
+    width: 50%;
+    text-align: left;
+}
+#mission-color{
+    border-left: 3px solid;
+    border-image: linear-gradient(tomato, rgb(255, 34, 1));
+    border-image-slice: 1;
+}
+.right-img{
+    width: 50%;
+    padding-left: 1%;
+    margin-bottom: 200px;
+}
+.right-img img{
+    width: 70%;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 15px 45px;
+}
+
+
+.second-section{
+    text-align: center;
+    padding: 0 100px;
+}
+.all-group{
+    display: flex;
+    width: 100%;
+}
+.div-mission{
+    width: 30%;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: justify;
+    background-color: #e9edf5;
+}
+h3{
+    font-size: 20px;
+    padding-left: 20px;   
+}
+p{
+    text-align: justify;
+    padding: 20px;   
+}
+.div-vission{
+    width: 30%;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: justify;
+    background-color: #e6dce8;
+}
+
+.div-goal{
+    width: 30%;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: justify;
+    background-color: #eaf0cc;
+}
+
+
+.div-image img{
+    width: 100px;
+    height: 100px;
+}
